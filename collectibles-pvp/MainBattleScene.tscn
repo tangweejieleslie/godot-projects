@@ -1,0 +1,25 @@
+[gd_scene format=2]
+
+[node name="MainBattleScene" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="ColorBackground" type="ColorRect" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="TurnOrder" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 851.006
+margin_top = 88.0605
+margin_right = -43.9944
+margin_bottom = -554.939
+color = Color( 0.258824, 0.0980392, 0.0980392, 1 )
+
+[node name="GridContainer" type="GridContainer" parent="."]
+margin_left = 155.786
+margin_top = 107.852
+margin_right = 746.786
+margin_bottom = 698.852
